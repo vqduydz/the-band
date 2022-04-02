@@ -1,0 +1,309 @@
+.header-container {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 20;
+}
+.header-content,
+.nav {
+    display: flex;
+}
+
+.header-content {
+    background-color: #000;
+}
+.nav>li>a,
+.header-search>i,
+.header-bars>i,
+.subnav-content>li a {
+    display: block;
+    padding: 12px 24px;
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.nav>li:hover>a,
+.subnav-content>li:hover>a {
+    background-color: #ccc;
+    color: #000;
+}
+.subnav-content {
+    background-color: #fff;
+    display: none;
+    box-shadow: 0px 1px 1px 1px rgb(204, 204, 204);
+}
+.subnav-content>li>a {
+    color: #000;
+}
+.subnav:hover .subnav-content {
+    position: absolute;
+    display: block;
+}
+.header-search,
+.header-bars {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+.header-bars {
+    display: none;
+}
+.header-search:hover {
+    background-color: red;
+}
+main {
+    height: 1500px;
+    background-color: rgba(251, 255, 0, 0.2);
+    margin-top: 46.5px;
+}
+.slide-item {
+    display: block;
+    position: relative;
+}
+.slide-img{
+    padding-top: 50%;
+}
+.slide-img1 {
+    background: url('https://www.w3schools.com/w3images/ny.jpg') top center / cover no-repeat;
+}
+.slide-img2 {
+    background: url('https://www.w3schools.com/w3images/la.jpg') top center / cover no-repeat;
+}
+.slide-img3 {
+    background: url('https://www.w3schools.com/w3images/chicago.jpg') top center / cover no-repeat;
+}
+.slide-decs {
+    padding: 32px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.slide-decs>h2,
+.slide-decs>p {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0;
+    color: #fff;
+    text-shadow: 1px 1px #000;
+}
+.social li:hover,
+.tour-place-img:hover,
+.container>p>i {
+    opacity: 0.5;
+}
+.member-img {
+    padding-top: 60%;
+    background: url('https://www.w3schools.com/w3images/bandmember.jpg') top center / cover no-repeat;
+    border-radius: 5px;
+    width: 60%;
+    margin: 0 auto;
+}
+.tour {
+    background-color: #000;
+    color: #fff;
+}
+.ticket-bar {
+    background-color: #fff;
+    color: #757575;
+}
+.ticket-bar>li {
+    padding: 8px 16px;
+    border-bottom: 1px solid #ccc;
+}
+.ticket-bar span {
+    background-color: #f44336;
+    padding: 0 8px;
+    margin-left: 16px;
+    color: #fff;
+}
+span.ticket-slots {
+    background-color: #000;
+    border-radius: 50%;
+    float: right;
+    margin-right: 16px;
+}
+.tour-place-list {
+    padding: 32px 8px;
+    margin: 0 -16px;
+}
+.tour-place-item {
+    padding: 0 8px;
+    margin-bottom: 16px;
+}
+.tour-place-decs {
+    background-color: #fff;
+    color: #000;
+    padding: 0 16px;
+}
+.tour-place-decs>p:first-child {
+    margin-top: 0;
+    padding-top: 15px;
+}
+.tour-place-img {
+    width: 100%;
+    padding-top: 100%;
+}
+.tour-place-img1 {
+    background: url('https://www.w3schools.com/w3images/newyork.jpg') top center / cover no-repeat;
+}
+.tour-place-img2 {
+    background: url('https://www.w3schools.com/w3images/paris.jpg') top center / cover no-repeat;
+}
+.tour-place-img3 {
+    background: url('https://www.w3schools.com/w3images/sanfran.jpg') top center / cover no-repeat;       
+}
+.buy-tickets-btn,
+.send-info-btn {
+    margin-bottom: 16px;
+    padding: 8px 16px;
+    background-color: #000;
+    color: #fff;
+    font-size: 15px;
+}
+.close-btn:hover,
+.pay-btn:hover,
+.buy-tickets-btn:hover,
+.send-info-btn:hover {
+    background-color: #757575;
+    color: #000;
+}
+.send-info {
+    box-sizing: border-box;
+    position: relative;
+}
+.send-info input {
+    padding: 8px;
+    width: 100%;
+}
+.send-info-email,
+.send-info-name {
+    width: 48%;
+}
+.send-info-email {
+    margin-left: 4%;
+}
+.send-info-message {
+    margin-top: 10px;
+}
+.contact-content {
+    margin: 32px 0;
+}
+.contact-info li i {
+    width: 30px;
+}
+.contact-info li {
+    font-size: 18px;
+}
+.info-btn {
+    position: relative;
+    width: 100%;
+}
+.send-info-btn {
+    margin: 16px 0;
+    float: right;
+}
+.map {
+    background: url('https://www.w3schools.com/w3images/map.jpg') top center / cover no-repeat; 
+    padding-top: 75%;
+}
+.footer>div {
+    display: block;
+    text-align: center;
+}
+.social li{
+    display: inline-block;
+    font-size: 28px;
+    margin: 0 5px;
+}
+.up-to-head {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    z-index: 15;
+}
+.up-to-head>i {
+    display: block;
+    font-size: 20px;
+    padding: 12px;
+    background-color: rgba(0, 0, 0, 0.637);
+    box-shadow: 0 0 0px 2px #fff;
+    color: #fff;
+    border-radius: 50%;
+}
+.modal {
+    position: fixed;
+    background-color: #757575;
+    left: 0;
+    right: 0;
+    padding: 0;
+    top: 20%;
+    box-shadow: 0 0 10px 5px #00000012;
+    z-index: 19;
+    animation: modalIn ease 0.3s;
+}
+.modal-head,
+.pay-btn {
+    background-color: #009688;
+    width: 100%;
+}
+.modal-content {
+    padding: 0 12px;
+    background-color: #fff;
+}
+.modal-head > h2 {
+    padding: 32px 16px;
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 4px;
+    font-size: 30px;
+}
+.modal-content >p>i,
+.modal-content > input,
+.modal-content > .btn{
+    margin-top: 15px;
+}
+.modal-content >p>i {
+    width: 20px;
+}
+.modal-content > input {
+    padding: 8px;
+    width: 100%;
+}
+.pay-btn,
+.close-btn {
+    padding: 8px 16px;
+    color: #fff;
+    font-size: 15px;
+}
+.pay-btn {
+    padding: 16px 0;
+}
+.modal-content > p {
+    margin: 0;
+}
+.btn>i {
+    margin-left: 5px;
+}
+.close-btn {
+    padding: 8px 16px;
+    background-color: #f44336;
+    margin: 16px 0;
+}
+.modal-content>p:last-child {
+    float: right;
+}
+@keyframes modalIn {
+    from {
+        transform: translateY(-200px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

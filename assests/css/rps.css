@@ -1,0 +1,75 @@
+@media (min-width: 740px) {
+    .merch {
+        display: none;
+    }
+    .subnav,
+    .slide-decs {
+        display: unset;
+    }
+    .modal {
+        max-width: 740px;
+    }
+}
+@media (min-width: 0px) and (max-width: 739px) {
+    .header-content {
+        height: 46.5px;
+        overflow: hidden;
+        display: block;
+    }
+    .nav {
+        display: block;
+    }
+    .nav>li:first-child {
+        display: inline-block;
+    }
+    .header-search,
+    .subnav,
+    .slide-decs {
+        display: none;
+    }
+    .header-bars,
+    .merch {
+        display: block;
+    }
+    .subnav-content {
+        width: 100%;
+    }
+    .subnav-content>li>a {
+        padding-left: 60px;
+    }
+    .band-member,
+    .tour-place-item,
+    .contact-info,
+    .send-info,
+    .send-info-btn,
+    .send-info-email,
+    .send-info-name {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-left: 0;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .scr2 {
+        display: unset;
+    }
+    .padding-32-8 {
+        padding: 32px 8px;
+    }
+    .padding-16-8 {
+        padding: 16px 8px !important;
+    }
+    .tour-place-list {
+         margin: 0 -8px;
+    }
+    .send-info input {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    .send-info-btn {
+        font-size: 20px;
+    }
+    .up-to-head {
+        right: 5px;
+    }
+}
